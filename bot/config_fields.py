@@ -1,0 +1,60 @@
+FIELDS = [
+    {
+        "key": "anydesk",
+        "prompt": "Укажите ваш AnyDesk ID или ссылку:",
+        "type": "text",
+        "bitrix_field": "UF_ANYDESK",
+    },
+    {
+        "key": "address",
+        "prompt": "Выберите адрес:",
+        "type": "choice",
+        "choices": ["Офис 1", "Офис 2", "Удалённо"],
+        "bitrix_field": "UF_ADDRESS",
+    },
+    {
+        "key": "description",
+        "prompt": "Опишите ваше обращение:",
+        "type": "text",
+        "bitrix_field": "UF_DESCRIPTION",
+    },
+    {
+        "key": "request_type",
+        "prompt": "Выберите тип заявки:",
+        "type": "choice",
+        "choices": ["Инцидент", "Запрос на доработку", "Доступы"],
+        "bitrix_field": "UF_REQUEST_TYPE",
+    },
+    {
+        "key": "department",
+        "prompt": "Выберите департамент:",
+        "type": "choice",
+        "choices": ["Бухгалтерия", "Продажи", "IT", "HR"],
+        "bitrix_field": "UF_DEPARTMENT",
+    },
+    {
+        "key": "bitrix_user_id",
+        "prompt": "Укажите ID пользователя в Bitrix24, от которого подаётся заявка:",
+        "type": "text",
+        "bitrix_field": "UF_BITRIX_USER",
+    },
+    {
+        "key": "city",
+        "prompt": "Выберите город:",
+        "type": "choice",
+        "choices": ["Алматы", "Астана", "Шымкент"],
+        "bitrix_field": "UF_CITY",
+    },
+    {
+        "key": "files",
+        "prompt": "Пришлите файлы (скриншоты/документы). Когда закончите — напишите «готово».",
+        "type": "files",
+        "bitrix_field": "UF_FILES",
+    },
+    {
+        "key": "dev_comment",
+        "prompt": "Комментарий по доработке (если нужен, иначе напишите «нет»):",
+        "type": "text",
+        "bitrix_field": "UF_DEV_COMMENT",
+    },
+]
